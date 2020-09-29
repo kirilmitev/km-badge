@@ -1,0 +1,63 @@
+body {
+  background-color: #d3d3d3;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.envelope,
+.warning,
+.settings {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.envelope {
+  background-image: url("../assets/envelope.png");
+}
+
+.warning {
+  background-image: url("../assets/warning.png");
+}
+
+.settings {
+  background-image: url("../assets/settings.png");
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  color: #fff;
+}

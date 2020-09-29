@@ -1,0 +1,15 @@
+{
+  "name": "km-badge",
+  "version": "1.0.0",
+  "description": "A simple web component written in vanilla JS for creating badges",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Kiril Mitev",
+  "devDependencies": {
+    "jasmine": "^3.6.1",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1"
+  }
+}

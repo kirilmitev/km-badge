@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KM-Badge example usages</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="../src/km-badge.component.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <button class="btn btn-success">
+      Messages
+      <km-badge text="6" background-color="#555"></km-badge>
+    </button>
+    <button class="btn btn-info">
+      Info
+      <km-badge text="5" background-color="#555"></km-badge>
+    </button>
+    <button class="btn btn-warning">
+      Warnings
+      <km-badge text="4" background-color="#555"></km-badge>
+    </button>
+    <button class="btn btn-danger">
+      Errors
+      <km-badge text="3" background-color="#555"></km-badge>
+    </button>
+    <hr />
+    <div class="envelope">
+      <km-badge text="2"></km-badge>
+    </div>
+    <div class="warning">
+      <km-badge text="13" background-color="#e74c3c"></km-badge>
+    </div>
+    <div class="settings">
+      <km-badge text="11" background-color="#f1c40f"></km-badge>
+    </div>
+    <hr />
+    <button class="btn" onclick="toggleAnimation()">Toggle animation</button>
+    <button class="btn" onclick="changePosition()">Change position</button>
+  </body>
+</html>
